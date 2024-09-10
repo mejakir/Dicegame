@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: arial;
+}
+
+h1 {
+    margin: 30px;
+    text-shadow: 5px 0 #232931;
+    font-size: 4.5rem;
+    color: deeppink;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    color: hotpink;
+}
+
+img {
+    width: 100%;
+}
+
+.bottom {
+    padding-top: 30px;
+}
+
+.btn {
+    background: seagreen;
+    border-radius: 10px;
+    color: #ffff;
+    font-size: 30px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border:none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-decoration: none;
+    opacity: 0.9;
+}
+      
+.even-roll {
+  transition: transform 1.5s ease-out;
+}
+.odd-roll {
+  transition: transform 1.25s ease-out;
+}
